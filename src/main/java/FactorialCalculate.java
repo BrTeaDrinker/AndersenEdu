@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class FactorialCalculate {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите целое число для расчета факториала");

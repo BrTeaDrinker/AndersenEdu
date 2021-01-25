@@ -17,7 +17,13 @@ public class ExecutionProduct {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите код продукта, по которому необходимо найти цену");
-        int code = in.nextInt();
+        String codeString = in.next();
+        int code = 0;
+        try {
+            code = Integer.parseInt(codeString);
+        }catch (NumberFormatException e) {
+            System.err.println("Вы ебобо?");
+        }
 
         index = 0;
         do{

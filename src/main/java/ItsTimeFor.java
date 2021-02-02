@@ -7,7 +7,10 @@ public class ItsTimeFor {
     public void setMoney(double money){
         this.money = money;
     }
-
+    public String NameValue(String value){
+        String className = getClass().getSimpleName();
+        return className + value;
+    }
     public void ItsTimeForWhat(){
         if (time >= 22.0){
             timeFor = "Время идти спать!";

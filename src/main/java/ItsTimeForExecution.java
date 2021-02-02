@@ -9,5 +9,6 @@ public class ItsTimeForExecution {
         System.out.println("Введите количество денег в кармане");
         what.setMoney(in.nextDouble());
         what.ItsTimeForWhat();
+        System.out.println(what.NameValue(" - таково имя класса"));
     }
 }

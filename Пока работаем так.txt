@@ -1,1 +1,12 @@
-Здесь будут изменения
+{"timestamp":"2021-01-29T15:58:08.143+03:00","message":"[Producer clientId=producer-1] Cluster ID: EPsVXSVXTtKzPnKn--HfxQ","logger":"org.apache.kafka.clients.Metadata","thread":"kafka-producer-network-thread | producer-1","level":"INFO","applicationName":"sme-bg-origination-service"}
+{"timestamp":"2021-01-29T15:58:08.544+03:00","message":"Finish.","logger":"ru.tinkoff.bpm.smebgoriginationservice.process.finishrejectapplication.delegate.SleNotificationDelegate","thread":"camundaTaskExecutor-1","level":"INFO","traceId":"8c7a32a3-6231-11eb-bda0-fe7f03139d01","entityId":"2021XYN290120200701BG01","applicationName":"sme-bg-origination-service"}
+{"timestamp":"2021-01-29T15:58:08.574+03:00","message":"Start.","logger":"ru.tinkoff.bpm.smebgoriginationservice.process.finishrejectapplication.delegate.DetermineNotificationParametersDelegate","thread":"camundaTaskExecutor-1","level":"INFO","traceId":"8c7a32a3-6231-11eb-bda0-fe7f03139d01","entityId":"2021XYN290120200701BG01","applicationName":"sme-bg-origination-service"}
+{"timestamp":"2021-01-29T15:58:08.574+03:00","message":"callType=BPMSplunkLog; requestId=8c7a32a3-6231-11eb-bda0-fe7f03139d01; callId=cl-yJP3iuDp8_Kg7BJHO5qAQ; callPoint=BG_ORIGINATION_SERVICE/Siebel/ExportCreditApplication/Start; entityId=2021XYN290120200701BG01; result=null","logger":"ru.tinkoff.bpm.smebgoriginationservice.component.NotificationComponent","thread":"camundaTaskExecutor-1","level":"INFO","traceId":"8c7a32a3-6231-11eb-bda0-fe7f03139d01","entityId":"2021XYN290120200701BG01","applicationName":"sme-bg-origination-service"}
+
+{"timestamp":"2021-01-29T15:58:05.034+03:00",
+"message":"Sending to topic `prm.prma.event.bg` 
+ message=integrationId: 2021XYN290120200701BG01\nproductType : Банковская гарантия\nproductAmount: 606\napprovalDate: 2021-01-29T12:58:05.032Z",
+"logger":"ru.tinkoff.bpm.smebgoriginationservice.async.sender.SleNotificationKafkaSender",
+"thread":"camundaTaskExecutor-1","level":"INFO","traceId":"8c7a32a3-6231-11eb-bda0-fe7f03139d01",
+"entityId":"2021XYN290120200701BG01",
+"applicationName":"sme-bg-origination-service"}

@@ -1,3 +1,5 @@
+package FactorialsAndNumbers;
+
 import java.util.Scanner;
 
 public class FactorialCalculate {

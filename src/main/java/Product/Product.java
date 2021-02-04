@@ -1,9 +1,10 @@
-import java.util.ArrayList;
+package Product;
+
 import java.util.Random;
 
 public class Product {
-    int code;
-    double price;
+    public int code;
+    public double price;
     Random random = new Random();
 
     public int setCode(){
@@ -16,11 +17,6 @@ public class Product {
     public Product(){
         this.code = setCode();
         this.price = setPrice();
-    }
-
-    public static void main(String[] args) {
-        Product i = new Product();
-        System.out.println(i.code + " "+ i.price);
     }
 
 

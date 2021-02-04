@@ -1,3 +1,5 @@
+package TimeFor;
+
 public class ItsTimeFor {
     double time, money;
     String timeFor;

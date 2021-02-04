@@ -1,3 +1,5 @@
+import Animals.Doggy;
+
 public class ExecutionAnimals {
     public static void main(String[] args) {
         Doggy dog = new Doggy();

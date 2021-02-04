@@ -1,3 +1,7 @@
+package Animals;
+
+import Animals.Animals;
+
 public class Dog implements Animals {
 
     @Override
